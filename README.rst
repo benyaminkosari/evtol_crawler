@@ -17,7 +17,7 @@ Usage
 
 Download all vtols:
 
-.. code-block:: bash
+.. code-block:: python
 
     >>> from evtol.download import Download
     >>> download = Download()
@@ -25,7 +25,7 @@ Download all vtols:
 
 Save downloaded vtols as csv:
 
-.. code-block:: bash
+.. code-block:: python
 
     >>> from evtol.save_to_csv import SaveToCsv
     >>> handler = SaveToCsv()
